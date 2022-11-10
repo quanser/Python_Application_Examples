@@ -1,5 +1,5 @@
 ## example_aero2_1dof_rotor_0_pi_control_immediate.py
-# This example implements a Proportional-Integral (PI) controller for rotor 0 in of the Aero2 in the
+# This example implements a Proportional-Integral (PI) controller for rotor 0 of the Aero2 in the
 # 1-dof configuration and uses immediate I/O where you have to handle the timing by yourself. 
 # In this example, the sample frequency is 150 Hz. This example also plots the data in real-time 
 # using the q_scope library.
@@ -94,3 +94,4 @@ except KeyboardInterrupt:
 finally:
     # terminate Aero2
     myAero2.terminate() 
+    input("Press ENTER to continue!")
